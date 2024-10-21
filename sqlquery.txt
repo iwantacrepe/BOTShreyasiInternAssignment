@@ -1,0 +1,7 @@
+-- Update prices by 10%
+UPDATE products
+SET price = price * 1.1;
+
+-- Display updated prices
+SELECT name, price AS new_price
+FROM products;
